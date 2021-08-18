@@ -1,0 +1,20 @@
+.alist: ArrayList
+    ANY -> java.util.List<$args$> $expr$ = new ArrayList<>();
+.llist: LinkedList
+    ANY -> java.util.List<$args$> $expr$ = new LinkedList<>();
+.hset: HashSet
+    ANY -> java.util.Set<$args$> $expr$ = new HashSet<>();
+.lset: LinkedHashSet
+    ANY -> java.util.Set<$args$> $expr$ = new LinkedHashSet<>();
+.tset: TreeSet
+    ANY -> java.util.Set<$args$> $expr$ = new TreeSet<>();
+.deque: Deque
+    ANY -> java.util.Deque<$args$> $expr$ = new Deque<>();
+.pqueue: PriorityQueue
+    ANY -> java.util.PriorityQueue<$args$> $expr$ = new PriorityQueue<>();
+.hmap: HashMap
+    ANY -> java.util.Map<$args$> $expr$ = new HashMap<>();
+.lmap: LinkedHashMap
+    ANY -> java.util.Map<$args$> $expr$ = new LinkedHashMap<>();
+.tmap: TreeMap
+    ANY -> java.util.Map<$args$> $expr$ = new TreeMap<>();
