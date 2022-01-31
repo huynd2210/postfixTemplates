@@ -18,3 +18,4 @@
     ANY -> java.util.Map<$args$> $expr$ = new LinkedHashMap<>();
 .tmap: TreeMap
     ANY -> java.util.Map<$args$> $expr$ = new TreeMap<>();
+    

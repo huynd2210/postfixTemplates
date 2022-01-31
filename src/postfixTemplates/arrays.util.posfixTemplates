@@ -1,0 +1,12 @@
+.fill: Collections.fill() (or Arrays.fill())
+    java.util.Collection -> java.util.Collections.fill($expr$, $args$);
+    ARRAY -> java.util.Arrays.fill($expr$, $args$);
+.frequency: Collections.frequency()
+    java.util.Collection -> java.util.Collections.frequency($expr$, $args$);
+.rotate: Collections.rotate()
+    java.util.Collection -> java.util.Collections.rotate($expr$, $args$);
+.shuffle: Collections.shuffle()
+    java.util.Collection -> java.util.Collections.shuffle($expr$);
+.disjoint: Collections.disjoint()
+    java.util.Collection -> java.util.Collections.disjoint($expr$, $args$);
+
